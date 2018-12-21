@@ -1,0 +1,8 @@
+---
+applications:
+- name: spring-music-docker
+  memory: 512M
+  instances: 2
+  docker:
+    image: harbor.docker.pcf-apps.com/workshop/spring-tomcat-war:1.0
+    username: developer
